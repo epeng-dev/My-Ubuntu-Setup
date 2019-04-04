@@ -25,6 +25,8 @@ then
         cp bashrc_ubuntu ~/.bashrc
         echo 'Android Platform-tools를 설치해주신 후 bashrc의 adb() 함수의 주석을 풀어주세요'
     fi
+else
+    cp bashrc_ubuntu_normal ~/.bashrc
 fi
 
 echo ''
